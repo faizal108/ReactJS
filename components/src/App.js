@@ -1,5 +1,7 @@
 import FunCom from "./components/FunctionCompo";
 import {ClassCompo, ClassCompo2} from "./components/ClassCompo";
+import { Click } from "./components/Click";
+import Counter from "./components/Counter";
 function App() {
   return <>
     <h1>Hello this is Faizal</h1>
@@ -7,8 +9,12 @@ function App() {
     <FunCom />
     <hr/>
     <ClassCompo />
-    <hr />
+    <hr/>
     <ClassCompo2 />
+    <hr/>
+    <Click />
+    <hr />
+    <Counter/>
   </>
 }
 
